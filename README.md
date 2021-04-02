@@ -11,40 +11,40 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## Views
-####`Home`
+`Home`
 Home view with a table.
 
-####`Details`
+`Details`
 View with information about the selected stock.
 
 ## Templates
-####`MainTemplate`
+`MainTemplate`
 Main template with navigation.
 
 ![Algorithm schema](./Print_Screen/MainTemplate.jpg)
 
 ## Components
-####`Chart`
+`Chart`
 Chart with information about the selected stock.(chart from [Victory](https://formidable.com/open-source/victory/docs))
 
 ![Algorithm schema](./Print_Screen/Chart.jpg)
 
-####`Info`
+`Info`
 Box with information about the selected stock.
 
 ![Algorithm schema](./Print_Screen/Info.jpg)
 
-####`Loading`
+`Loading`
 Used when data is fetching (used circular from [Material UI](https://material-ui.com/components/progress/))
 
 ![Algorithm schema](./Print_Screen/Loading.gif)
 
-####`SearchInput`
+`SearchInput`
 Search your favourite stocks by name or symbol.
 
 ![Algorithm schema](./Print_Screen/SearchInput.jpg)
 
-####`TableData`
+`TableData`
 Table with info about three stocks. (table from [Material UI](https://material-ui.com/components/tables/))
 
 ![Algorithm schema](./Print_Screen/TableData.jpg)
