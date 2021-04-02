@@ -1,0 +1,32 @@
+.info {
+  padding: 20px;
+  @media (max-width: 1000px) {
+    padding: 0;
+  }
+}
+.info__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+}
+.info__paragraph {
+  font-size: 1.1rem;
+  display: flex;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+.info__paragraph--name {
+  font-weight: bold;
+  margin: 10px 10px 10px 0;
+}
+.info__paragraph--value {
+  margin: 10px 0;
+}
+.info__paragraph--description {
+  @media (max-width: 1000px) {
+    padding: 0 20px;
+  }
+}
